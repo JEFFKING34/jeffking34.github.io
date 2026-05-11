@@ -1,0 +1,244 @@
+body {
+    background-color: grey;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+    background-color: lch(49.02% 24.13 76.36);
+    color: darkgreen;
+    line-height: 1.6;
+}
+
+/**/
+header {
+    background-color: forestgreen;
+    color: lch(49.02% 24.13 76.36);
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 5px solid brown;
+}
+
+header img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+/**/
+nav {
+    background-color: #52341d;
+    padding: 12px 0;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #f5e6d3;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+}
+
+
+
+/*Hover effect for links*/
+nav ul li a:hover {
+    background-color: #f5e6d3;
+    color: #2a5f2b;
+    border-radius: 5px;
+}
+
+
+/*Active page indicator*/
+nav ul li a [aria-current="page"] {
+    background-color: #f5e6d3;
+    color: #2a5f2b;
+    border-radius: 5px;
+}
+
+/*Main Content Layout*/
+main {
+    max-width: 1200px;
+    margin: 30px auto; /*Centers the main content*/
+    padding: 0 20px;
+}
+
+/* Section stylying-creates white cards for content*/
+section, article {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-left: 5px solid #2c5f2d;
+}
+
+/* Gallery Layout */
+section.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+section.gallery h2 {
+    width: 100%;
+    text-align: center;
+}
+
+section.gallery figure {
+    margin: 0;
+    flex: 0 0 auto;
+}
+
+
+
+h1 {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'poppins', 'Arial',sans-serif;
+    color: #2a5f2b ;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f5e6d3;
+}
+
+h3 {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    color: #5a3a22;
+    font-size: 1.4em;
+    margin: 15px 0 10px 0;
+}
+
+P {
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+
+ul, ol {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+}
+
+
+th, td {
+    border: 1px solid #d4c4a8;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color:#2a5f2b;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2a5f2b;
+}
+
+
+figure {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+figure img {
+    border-radius: 5px;
+}
+
+figcaption {
+    font-size: 0.85em;
+    color: #5a3a22;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
+
+address {
+    font-style: normal;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    line-height: 2;
+}
+
+address a {
+    color: #2a5f2b;
+    text-decoration: none;
+}
+
+
+address a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #2a5f2b;
+    color: #f5e6d3;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
+    border-top: 5px solid #5a3a22;
+}
